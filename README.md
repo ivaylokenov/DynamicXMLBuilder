@@ -3,7 +3,7 @@ Dynamic XML Builder
 
 Example:
 
-string xml = XmlBuilder.Create()
+            string xml = XmlBuilder.Create()
                 .Customer._b_
                     .Name("Ivaylo", new { id = "unikat", change = "clickni" })
                     .Phone("0888-888-888")
